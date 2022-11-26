@@ -10,9 +10,9 @@ import { RouterModule,Routes } from '@angular/router';
 const myroute:Routes=[
   {
     path:'',
-    'component':SigninComponent
-  },{
-    path:'login',
+    'component':SigninComponent},
+   {
+     path:'log',
     'component':FoodOrderLoginComponent
   },
   {
