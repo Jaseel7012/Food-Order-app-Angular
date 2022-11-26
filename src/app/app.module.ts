@@ -7,6 +7,7 @@ import { SigninComponent } from './signin/signin.component';
 import { FoodOrderLoginComponent } from './food-order-login/food-order-login.component';
 import { FoodOrderAboutComponent } from './food-order-about/food-order-about.component';
 import { RouterModule,Routes } from '@angular/router';
+import { FoodOrderMealsComponent } from './food-order-meals/food-order-meals.component';
 const myroute:Routes=[
   {
     path:'',
@@ -18,6 +19,10 @@ const myroute:Routes=[
   {
     path:'about',
     'component':FoodOrderAboutComponent
+  },
+  {
+    path:'meals',
+    'component':FoodOrderMealsComponent
   }
 ]
 @NgModule({
@@ -25,7 +30,8 @@ const myroute:Routes=[
     AppComponent,
     SigninComponent,
     FoodOrderLoginComponent,
-    FoodOrderAboutComponent
+    FoodOrderAboutComponent,
+    FoodOrderMealsComponent
   ],
   imports: [
     BrowserModule,
