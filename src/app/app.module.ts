@@ -9,6 +9,7 @@ import { FoodOrderAboutComponent } from './food-order-about/food-order-about.com
 import { RouterModule,Routes } from '@angular/router';
 import { FoodOrderMealsComponent } from './food-order-meals/food-order-meals.component';
 import { FoodOrderDishesComponent } from './food-order-dishes/food-order-dishes.component';
+import { NavbarComponent } from './navbar/navbar.component';
 const myroute:Routes=[
   {
     path:'',
@@ -37,7 +38,8 @@ const myroute:Routes=[
     FoodOrderLoginComponent,
     FoodOrderAboutComponent,
     FoodOrderMealsComponent,
-    FoodOrderDishesComponent
+    FoodOrderDishesComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
